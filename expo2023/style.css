@@ -624,8 +624,11 @@ nav .container .title .ham span{
 }
 .boxDivisi .card .titleCard{
   font-family: recolenta;
-  font-size: 36px;
+  font-size: 28px;
+  text-align: center;
   color: white;
+  background-color: rgba(0, 0, 0, 0.267);
+  border-radius: 12px;
   margin-bottom: 6px;
   z-index: 2;
 }
@@ -633,6 +636,8 @@ nav .container .title .ham span{
   font-size: 16px;
   font-family: poppins;
   color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.096);
+  border-radius: 12px;
   margin-bottom: 12px;
   z-index: 2;
   text-align: center;
@@ -667,8 +672,8 @@ nav .container .title .ham span{
 .office{
   background-image: url(img/office.png);
 }
-.mulmed {
-  background-image: url(img/multimedia.png);
+.robotik {
+  background-image: url(img/robotik.jpg);
 }
 /* END DIVISI */
 /* KARYA */

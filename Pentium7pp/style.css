@@ -1,0 +1,64 @@
+@font-face {
+    font-family:p;
+    src: url(bahan/pervitina_dex/Pervitina-Dex-FFP.ttf);
+}
+nav, .subtitle{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+nav img{
+    width: 20%;
+    margin: 0;
+    padding-right: 20px;
+}
+nav .tengah {
+    padding: 2px 100px;
+    display: flex;
+    flex-direction: row;
+}
+nav .tengah a {
+    padding: 2px 20px;
+    color: #191919;
+    text-decoration: none;
+}
+
+section{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+}
+section .kanan1{
+    margin-left: 100px;
+}
+section .kanan1 span{
+    font-size: 80px;
+    text-align: center;
+}
+section .kanan1 .title{
+    font-family: p;
+    font-size: 67px;
+}
+section .kanan1 .subtitle{
+    font-size: 14px; 
+    text-align: justify;
+
+}
+section .kiri1{
+    padding-top: 100px;
+    margin-left: 100px;
+}

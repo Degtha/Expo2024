@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Mobius;
+    src: url(asset/mobius.otf);
+}
+@font-face {
+    font-family: Genosida;
+    src: url(asset/genosida.otf);
+}
+@font-face {
+    font-family: Sastra;
+    src: url(asset/sastra.ttf);
+}
+@font-face {
+    font-family: Argya;
+    src: url(asset/Argya.ttf);
+}
+@font-face {
+    font-family: Gik;
+    src: url(asset/gir5.ttf);
+}
+
+/* Warna */
+.blue {
+    color: rgb(20, 83, 218);
+}
+.default {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navigasi bar */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding-left: 48px; padding-right: 48px;
+}
+
+.kiri h1 {
+    font-size: 36px;
+    font-family: 'Mobius';
+}
+
+.kanan {
+    display: flex;
+    flex-direction: row;
+    gap: 128px;
+}
+.kanan .list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 36px;
+}
+
+.kanan .list a {
+    text-decoration: none;
+    font-family: 'Genosida';
+    font-size: 24px;
+    color: black;
+}
+.kanan .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+/* Main njir */
+.main-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin: 56px;
+    padding-left: 150px; padding-right: 150px;
+    height: 85vh;
+}
+.main-body h1 {
+    font-family: 'Sastra';
+    font-size: 76px;
+}
+.main-body h2 {
+    color: rgb(248, 248, 248);
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Argya';
+}
+.main-body p {
+    font-family: 'Gik';
+    font-size: 20px;
+    padding-bottom: 48px; padding-top: 48px;
+}
+.main-body ul {
+    margin-left: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.main-body .box {
+    background-color: rgb(20, 83, 218);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 256px;
+}
+
+/* Bagian bawah */
+
+.floor {
+    background-color: rgb(20, 83, 218);
+    padding-top: 32px;
+    margin-left: 200px; margin-right: 600px;
+}

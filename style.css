@@ -15,6 +15,7 @@
   src: url(font/Recoleta/Recoleta-RegularDEMO.otf);
 }
 
+
 /* loading */
 .loading{
   display: flex;
@@ -1403,4 +1404,3 @@ footer img{
   }
 }
 /* END RESPONSIVE */
-

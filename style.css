@@ -27,10 +27,12 @@
   font-size: 20px;
   margin-bottom: 30vh;
   text-align: center;
+  color: var(--color3--);
 }
 .member h1 span{
   font-size: 32px;
   font-family:recolenta ;
+  color: var(--color3--);
 }
 .card_container{
   height: 40vw;

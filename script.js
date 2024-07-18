@@ -128,22 +128,21 @@ let ChangeIcon = function(icon){
 // DARK & LIGHT MODE END
 
 // start parallax
-    let dm = document.getElementById('dm')
-    let of = document.getElementById('of')
-    let pr = document.getElementById('pr')
-    let ro = document.getElementById('ro')
-    let kanan = document.getElementById('kanan')
-    let kiri = document.getElementById('kiri')
-    window.addEventListener('scroll', () =>{
-        let value = window.scrollY;
+const typingText = document.getElementById('typing-text');
+const textToType = 'Temukan keajaiban teknologi dalam dirimu sekarang juga! Bersama PENTIUM7, mari bersama mengembangkan bakat dan menerobos batas tekonologi!'
+let charIndex = 0;
+let timer = null;
 
-        dm.style.top= value * -6.5 + 'px';
-        of.style.top= value * -4.5 + 'px';
-        pr.style.top= value * -2.5 + 'px';
-        // ro.style.left= value * 1.5 + 'px';
-        kanan.style.left= value * -1.5 + 'px';
-        kiri.style.left= value * 1.5 + 'px';
-    })
+function typeChar() {
+if (charIndex < textToType.length) {
+    typingText.textContent += textToType[charIndex];
+    charIndex++;
+    timer = setTimeout(typeChar, 18); // adjust the speed to your liking
+} else {
+    clearTimeout(timer);
+}
+}
+typeChar();
 // end parallax
 
 // Loading
@@ -151,14 +150,6 @@ window.onload = function () {
   document.querySelector(".loading").style.transform = "translateY(-100%)"
   document.querySelector(".loading").style.backgroundColor = "transparent"
 }
-
-//floating button
-const buttonWA = document.querySelector(".floating-button")
-		buttonWA.addEventListener("click", function(){
-  		document.location.href = "https://wa.me/+62895361262492?text=Halo%20kak%20saya%20mau%20daftar%20"
-		})
-
-
 
 // cekkhodam
 

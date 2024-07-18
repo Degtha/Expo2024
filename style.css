@@ -1467,6 +1467,7 @@ footer img{
     height: 300px;
     min-width: 200px;
     margin-top: 0;
+    background-color: white;
   }
   .icon_image{
     height: 70px;

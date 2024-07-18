@@ -129,7 +129,7 @@ let ChangeIcon = function(icon){
 
 // start parallax
 const typingText = document.getElementById('typing-text');
-const textToType = 'Temukan keajaiban teknologi dalam dirimu sekarang juga! Bersama PENTIUM7, mari bersama mengembangkan bakat dan menerobos batas tekonologi!'
+const textToType = 'Temukan keajaiban teknologi dalam dirimu sekarang juga! Bersama PENTIUM7, mari bersama mengembangkan bakat dan menerobos batas teknologi!'
 let charIndex = 0;
 let timer = null;
 

@@ -1444,6 +1444,34 @@ footer img{
   *{
     overflow-x: hidden;
   }
+  .member{
+    /* height: 20vw; */
+    overflow-y: hidden;
+  }
+  .member h1{
+    padding: 100px 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    overflow-y: hidden;
+  }
+  .member h1 span{
+    font-size: 16px;
+  }
+  .card_container{
+    /* height: 70vw; */
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: -30px;
+  }
+  .card_identitas{
+    height: 300px;
+    min-width: 200px;
+    margin-top: 0;
+  }
+  .icon_image{
+    height: 70px;
+    width: 25px;
+  }
   .container{
     padding: 0 24px;
   }

@@ -85,7 +85,7 @@ jwb3.addEventListener("click", function(){
   var jawaba = jwb3.previousElementSibling.value
   var jawaban = jawaba.toLowerCase();
   boxKuis[2].style.display = "none"
-  if(jawaban == "multimedia"  || jawaban == "divisi multimedia"){
+  if(jawaban == "robotik"  || jawaban == "divisi robotik"){
     jwb3.parentElement.nextElementSibling.classList.add("jwb-bnr")
   }else{
     jwb3.parentElement.nextElementSibling.classList.add("jwb-slh")
